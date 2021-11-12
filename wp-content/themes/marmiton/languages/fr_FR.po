@@ -1,0 +1,322 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marmiton\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-29 21:19+0000\n"
+"PO-Revision-Date: 2021-11-12 00:56+0000\n"
+"Last-Translator: admin <sebastien.meric@gmail.com>\n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Description of the theme
+msgid "A child theme of \"Thème parent\"."
+msgstr ""
+
+#: includes/cpt.php:154
+msgid "Ajouter ou supprimer des ingrédients"
+msgstr ""
+
+#: includes/cpt.php:104
+msgid "Ajouter ou supprimer des types"
+msgstr ""
+
+#: includes/cpt.php:97
+msgid "Ajouter un nouveau type"
+msgstr ""
+
+#: includes/cpt.php:147
+msgid "Ajouter un nouvel ingrédient"
+msgstr ""
+
+#: includes/cpt.php:18
+msgid "Ajouter une nouvelle"
+msgstr ""
+
+#: includes/cpt.php:19
+msgid "Ajouter une nouvelle recette"
+msgstr ""
+
+#: includes/cpt.php:32
+msgid "Archives des recettes"
+msgstr ""
+
+#: includes/cpt.php:38
+msgid "Attributs des recettes"
+msgstr ""
+
+#: includes/cpt.php:157
+msgid "Aucun ingrédient"
+msgstr ""
+
+#: includes/cpt.php:156
+msgid "Aucun ingrédient trouvé"
+msgstr ""
+
+#: includes/cpt.php:107
+msgid "Aucun type"
+msgstr ""
+
+#: includes/cpt.php:106
+msgid "Aucun type trouvé"
+msgstr ""
+
+#: includes/cpt.php:25
+msgid "Aucune recette trouvée"
+msgstr ""
+
+#: includes/cpt.php:26
+msgid "Aucune recette trouvée dans la corbeille"
+msgstr ""
+
+#: includes/cpt.php:155
+msgid "Choisir parmi les ingrédients les plus utilisés"
+msgstr ""
+
+#: includes/cpt.php:105
+msgid "Choisir parmi les types les plus utilisés"
+msgstr ""
+
+#: includes/cpt.php:29
+msgid "Définir l’image de mise en avant pour cette recette"
+msgstr ""
+
+#: includes/cpt.php:35
+msgid "Filtrer la liste des recettes"
+msgstr ""
+
+#: includes/cpt.php:28
+msgid "Image de mise en avant pour cette recette"
+msgstr ""
+
+#: includes/cpt.php:142
+msgid "Ingredients"
+msgstr ""
+
+#: includes/cpt.php:141
+msgid "Ingrédient"
+msgstr ""
+
+#: includes/cpt.php:149
+msgid "Ingrédient parent"
+msgstr ""
+
+#: includes/cpt.php:150
+msgid "Ingrédient parent :"
+msgstr ""
+
+#: single-recette.php:61 includes/cpt.php:140 includes/cpt.php:165
+msgid "Ingrédients"
+msgstr ""
+
+#: includes/cpt.php:152
+msgid "Ingrédients populaires"
+msgstr ""
+
+#: includes/cpt.php:33
+msgid "Insérer dans la recette"
+msgstr ""
+
+#: includes/cpt.php:109
+msgid "Liste de types"
+msgstr ""
+
+#: includes/cpt.php:37
+msgid "Liste des recettes"
+msgstr ""
+
+#: includes/cpt.php:159
+msgid "Liste d’ingrédients"
+msgstr ""
+
+#: home-page.php:15
+msgid "Main page content"
+msgstr ""
+
+#. Name of the theme
+msgid "Marmiton"
+msgstr ""
+
+#: includes/cpt.php:146
+msgid "Mettre à jour le nom de l’ingrédient"
+msgstr ""
+
+#: includes/cpt.php:96
+msgid "Mettre à jour le nom du type"
+msgstr ""
+
+#: includes/cpt.php:20
+msgid "Modifier la recette"
+msgstr ""
+
+#: includes/cpt.php:94
+msgid "Modifier le type"
+msgstr ""
+
+#: includes/cpt.php:144
+msgid "Modifier l’ingrédient"
+msgstr ""
+
+#: includes/cpt.php:108
+msgid "Navigation de liste de types"
+msgstr ""
+
+#: includes/cpt.php:36
+msgid "Navigation de liste des recettes"
+msgstr ""
+
+#: includes/cpt.php:158
+msgid "Navigation de liste d’ingrédients"
+msgstr ""
+
+#: includes/cpt.php:98
+msgid "Nom du nouveau type"
+msgstr ""
+
+#: includes/cpt.php:148
+msgid "Nom du nouvel ingrédient"
+msgstr ""
+
+#: includes/cpt.php:21
+msgid "Nouvelle recette"
+msgstr ""
+
+#. Name of the template
+msgid "Page d'accueil sans sidebar"
+msgstr ""
+
+#: bloc-templates/liste-recettes.php:68 bloc-templates/liste-recettes.php:71
+msgid "Read more..."
+msgstr "Lire la suite..."
+
+#: includes/cpt.php:15 includes/cpt.php:39
+msgid "Recette"
+msgstr ""
+
+#: includes/cpt.php:44
+msgid "Recette mise à jour."
+msgstr ""
+
+#: includes/cpt.php:27 includes/cpt.php:45
+msgid "Recette parente :"
+msgstr ""
+
+#: includes/cpt.php:43
+msgid "Recette planifiée"
+msgstr ""
+
+#: includes/cpt.php:40
+msgid "Recette publiée"
+msgstr ""
+
+#: includes/cpt.php:41
+msgid "Recette publiée en privé."
+msgstr ""
+
+#: includes/cpt.php:42
+msgid "Recette repassée en brouillon."
+msgstr ""
+
+#: includes/cpt.php:14 includes/cpt.php:16 includes/cpt.php:49
+msgid "Recettes"
+msgstr ""
+
+#: includes/cpt.php:24
+msgid "Recherche de recettes"
+msgstr ""
+
+#: includes/cpt.php:101
+msgid "Recherche de types"
+msgstr ""
+
+#: includes/cpt.php:151
+msgid "Recherche d’ingrédients"
+msgstr ""
+
+#: includes/cpt.php:30
+msgid "Retirer l’image de mise en avant pour cette recette"
+msgstr ""
+
+#: includes/cpt.php:160
+msgid "Retourner aux ingrédients"
+msgstr ""
+
+#: includes/cpt.php:110
+msgid "Retourner aux types"
+msgstr ""
+
+#: single-recette.php:84
+msgid "Steps"
+msgstr "Etapes"
+
+#. Author of the theme
+msgid "Sébastien Méric"
+msgstr ""
+
+#: includes/cpt.php:153
+msgid "Séparer les ingrédients avec des virgules"
+msgstr ""
+
+#: includes/cpt.php:103
+msgid "Séparer les types avec des virgules"
+msgstr ""
+
+#: includes/cpt.php:143
+msgid "Tous les ingrédients"
+msgstr ""
+
+#: includes/cpt.php:93
+msgid "Tous les types"
+msgstr ""
+
+#: includes/cpt.php:17
+msgid "Toutes les recettes"
+msgstr ""
+
+#: includes/cpt.php:91
+msgid "Type"
+msgstr ""
+
+#: includes/cpt.php:99
+msgid "Type parent"
+msgstr ""
+
+#: includes/cpt.php:100
+msgid "Type parent :"
+msgstr ""
+
+#: includes/cpt.php:90 includes/cpt.php:92 includes/cpt.php:115
+msgid "Types"
+msgstr ""
+
+#: includes/cpt.php:102
+msgid "Types populaires"
+msgstr ""
+
+#: includes/cpt.php:34
+msgid "Téléverser sur cette recette"
+msgstr ""
+
+#: includes/cpt.php:31
+msgid "Utiliser comme image de mise en avant pour cette recette"
+msgstr ""
+
+#: includes/cpt.php:22
+msgid "Voir la recette"
+msgstr ""
+
+#: includes/cpt.php:95
+msgid "Voir le type"
+msgstr ""
+
+#: includes/cpt.php:23
+msgid "Voir les recettes"
+msgstr ""
+
+#: includes/cpt.php:145
+msgid "Voir l’ingrédient"
+msgstr ""

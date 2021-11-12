@@ -1,0 +1,356 @@
+/*
+Theme Name: Marmiton
+Author: Sébastien Méric
+Description: A child theme of "Thème parent".
+Template: theme-parent
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: marmiton
+
+@see https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/
+
+The comment header lines in style.css are required for WordPress to be able to identify the Theme and
+display it in the Administration Panel under Design > Themes as an available Theme option along with
+any other installed Themes.
+*/
+
+
+/** =Configuration
+ *************************************/
+
+:root{
+    /* couleurs */
+    --marmiton-site-bg-color: white;
+    --marmiton-site-primary-font-color: black;
+    --marmiton-site-secondary-font-color: #ba0800;
+    /* liens */
+    --marmiton-site-links-color: #d66c67;
+    --marmiton-site-links-active-color: #d66c67;
+    --marmiton-site-links-visited-color: #d66c67;
+    --marmiton-site-links-focus-color: #ba0800;
+
+    /* fonts */
+    --marmiton-site-primary-font-stack: 'Libre Franklin', sans-serif; /* textes */
+    --marmiton-site-secondary-font-stack: 'Libre Baskerville', serif; /* titres */
+    --marmiton-site-font-size: 1.8rem;
+    --marmiton-site-line-height: 1.3;
+
+    /* selection */
+    --marmiton-selection-bg-color: #ba0800;
+    --marmiton-selection-font-color: white;
+
+    /* layout */
+    --marmiton-site-max-width: 1200px;
+}
+
+
+/** =Styles par défaut
+ *************************************/
+
+/* Couleurs de selection des éléments de la page */
+::-webkit-selection {
+    color: var(--marmiton-selection-font-color);
+    background-color: var(--marmiton-selection-bg-color);
+    text-shadow: none;
+}
+   ::-moz-selection {
+    color: var(--marmiton-selection-font-color);
+    background-color: var(--marmiton-selection-bg-color);
+    text-shadow: none;
+}
+        ::selection {
+    color: var(--marmiton-selection-font-color);
+    background-color: var(--marmiton-selection-bg-color);
+    text-shadow: none;
+}
+
+body {
+    background-color: var(--marmiton-site-bg-color);
+    font-family: var(--marmiton-site-primary-font-stack);
+    font-size: var(--marmiton-site-font-size);
+    color: var(--marmiton-site-primary-font-color);
+    -webkit-font-smoothing: antialiased;
+    line-height: var(--marmiton-site-line-height);
+}
+
+p, ul, ol, dl, blockquote, pre, td, th, label, textarea, caption {
+    margin: 16px 0;
+    font-size: inherit;
+}
+h1 {
+    font-family: var(--marmiton-site-secondary-font-stack);
+    font-size: 5rem;
+    margin: 1em 0;
+}
+h1.is-style-alt {font-weight: normal;}
+h2 {
+    font-family: var(--marmiton-site-secondary-font-stack);
+    font-size: 3rem;
+    margin: 1.5em 0;
+}
+h2.is-style-alt {font-weight: normal;}
+h3 {
+    font-family: var(--marmiton-site-secondary-font-stack);
+    font-size: 2.4rem;
+    margin: 1em 0;
+}
+h3.is-style-alt {font-weight: normal;}
+h4 {
+    font-family: var(--marmiton-site-secondary-font-stack);
+    font-size: 2.2rem;
+    margin: 1em 0;
+}
+h4.is-style-alt {font-weight: normal;}
+h5 {
+    font-family: var(--marmiton-site-secondary-font-stack);
+    font-size: 2rem;
+    margin: 1em 0;
+}
+h5.is-style-alt {font-weight: normal;}
+h6 {
+    font-family: var(--marmiton-site-secondary-font-stack);
+    font-size: 1.8rem;
+    margin: 1em 0;
+}
+h6.is-style-alt {font-weight: normal;}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--marmiton-site-secondary-font-color);
+}
+
+em {
+    line-height: 1;
+}
+
+/* avoid collapsing margins
+you might need this, depending on your design
+*/
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child,
+p:first-child, blockquote:first-child, pre:first-child, table:last-child,
+ul:first-child, ol:first-child, dl:first-child {
+    margin-top: 0;
+}
+
+/* avoid last-child bottom margin */
+p:last-child, blockquote:last-child, pre:last-child, table:last-child,
+ul:last-child, ol:last-child, dl:last-child {
+    margin-bottom: 0;
+}
+
+/* avoid supp margin on nested elements */
+/* li p, li ul{
+    margin-top: 0;
+} */
+
+code, pre, samp {
+    white-space: pre-wrap;
+    font-family: consolas, 'DejaVu Sans Mono', courier, monospace;
+}
+
+code{
+    line-height: 2rem;
+}
+
+table{
+    margin-bottom: 20px;
+}
+
+acronym[title]{
+    border-bottom: 1px dotted;
+}
+
+/* Medias */
+
+/* Default aspect ratio based on the elements existing width and height attributes */
+img, video {
+    aspect-ratio: attr(width) / attr(height);
+}
+
+/* Liens */
+
+a, a:link {
+    text-decoration: none;
+    color: var(--marmiton-site-links-color);
+}
+
+a:active {
+    text-decoration: none;
+    color: var(--marmiton-site-links-active-color);
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--marmiton-site-links-visited-color);
+}
+
+a:focus, a:hover {
+    text-decoration: underline;
+    color: var(--marmiton-site-links-focus-color);
+}
+
+a, a * {
+    cursor: pointer;
+}
+
+
+
+/* Admin */
+.private-message{text-align: right;}
+
+/* Layout */
+#header,
+#main,
+#footer {
+    max-width: var(--marmiton-site-max-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    height: 200px;
+    position: relative;
+}
+@media screen and (max-width: 500px){
+    #header {
+        height: 160px;
+    }
+}
+@media screen and (max-width: 400px){
+    #header {
+        height: 145px;
+    }
+}
+#main {
+    max-width: var(--marmiton-site-max-width);
+    margin-bottom: 100px;
+}
+#footer {
+    height: 140px;
+}
+@media screen and (max-width: 1250px){
+    #header,
+    #main,
+    #footer {
+        max-width: none;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+
+/* Header */
+.site-branding {
+    position: absolute;
+    top: 50px;
+}
+@media screen and (max-width: 550px){
+    .site-branding {
+        width: 65%;
+    }
+    .site-branding .custom-logo {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+
+/* Homepage */
+.bloc-recettes .wp-block-post-featured-image a,
+.bloc-recettes .wp-block-post-featured-image img {
+    width:100%;
+    height: auto;
+}
+
+
+/* CPT Recette */
+.entry__image {
+    margin: 0;
+}
+.entry__image img{
+    width: 100%;
+    height: auto;
+}
+.entry__title {
+    padding-right: 150px;
+    position: relative;
+}
+.recette__temps-de-cuisson {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    font-family: var(--marmiton-site-primary-font-stack);
+    font-size: var(--marmiton-site-font-size);
+    color: var(--marmiton-site-font-color);
+    font-weight: 400;
+}
+@media screen and (max-width: 700px){
+    .entry__title {
+        padding-right: 0;
+    }
+    .recette__temps-de-cuisson {
+        display: block;
+        position: static;
+        margin-top: 30px;
+    }
+}
+
+.liste-ingredients {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 50px;
+}
+.liste-ingredients__ingredient {
+    width: 23%;
+    margin: 0 1% 1em;
+}
+.liste-ingredients__ingredient figure {
+    margin: 0;
+    text-align: center;
+}
+@media screen and (max-width: 800px){
+    .liste-ingredients__ingredient {
+        width: 31%;
+        margin: 0 1.16% 1em;
+    }
+}
+@media screen and (max-width: 550px){
+    .liste-ingredients__ingredient {
+        width: 48%;
+        margin: 0 1% 1em;
+    }
+}
+
+.liste-etapes {
+    list-style: none;
+    padding: 0;
+    counter-reset: li; /* Initiate a counter */
+}
+.liste-etapes__etape {
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.liste-etapes__etape:last-child {
+    margin-bottom: 0;
+}
+.liste-etapes__etape:before {
+    /* Use the counter as content */
+    content: '\000c9tape ' counter(li);
+    /* Increment the counter by 1 */
+    counter-increment: li;
+    /* Position and style the number */
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+}
+
+
+

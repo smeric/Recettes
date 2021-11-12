@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marmiton\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-29 21:19+0000\n"
+"PO-Revision-Date: 2017-06-29 21:20+0000\n"
+"Last-Translator: admin <sebastien.meric@gmail.com>\n"
+"Language-Team: French (France)\n"
+"Language: fr-FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Do something...
+#: functions.php:47
+msgid "Code is Poetry"
+msgstr "Le code est de la poésie (traduction du thème enfant)"
+
+#. Name of the theme
+msgid "Example Child Theme"
+msgstr "Thème enfant d'exemple"
+
+#. Description of the theme
+msgid "A child theme used as an exemple."
+msgstr "Un thème enfant utilisé comme exemple."
+
+#. Author of the theme
+msgid "Sébastien Méric"
+msgstr ""
